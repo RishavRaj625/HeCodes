@@ -1,0 +1,67 @@
+{
+  "sih-demo-patient-001": {
+    "id": "sih-demo-patient-001",
+    "full_name": "Biren Das (Demo Patient)",
+    "email": "biren.das@sihdemo.local",
+    "password_hash": "pbkdf2_sha256$390000$651cd45b065d6a893fb43332147a01e6$659444a50d8a2b6ffb7833bc487b397f13c735405601a8776c15b5ac7865f23d",
+    "role": "patient",
+    "age": 68,
+    "gender": "Male",
+    "phone": "+91 98640 12345",
+    "assigned_doctor_id": "sih-demo-doctor-001",
+    "education": "Graduate",
+    "occupation": "Retired High School Teacher (Assam)",
+    "location": "Guwahati, Assam",
+    "created_at": "2026-09-09T21:02:04+00:00",
+    "last_login": "2026-09-10T17:13:51+00:00"
+  },
+  "sih-demo-doctor-001": {
+    "id": "sih-demo-doctor-001",
+    "full_name": "Dr. Rupjyoti Hazarika",
+    "email": "dr.hazarika@sihdemo.local",
+    "password_hash": "pbkdf2_sha256$390000$8781bf010a99f6d91ce45fdc2cc2f9ca$e6db1664fea473f5c03d340d58c94711915892c96a1e489b99f903da46a282f7",
+    "role": "doctor",
+    "specialization": "Cognitive Neurologist",
+    "hospital": "Guwahati Medical College & Hospital (GMCH)",
+    "location": "Guwahati, Assam",
+    "years_experience": 18,
+    "consultation_mode": "Both",
+    "bio": "Specialist in neurodegenerative screening, MCI longitudinal monitoring, and community cognitive health.",
+    "max_patients": 20,
+    "current_patients": 1,
+    "patient_list": [
+      "sih-demo-patient-001"
+    ],
+    "pending_requests": [],
+    "created_at": "2026-09-09T21:02:04+00:00",
+    "last_login": "2026-09-09T21:02:04+00:00"
+  },
+  "sih-demo-caregiver-001": {
+    "id": "sih-demo-caregiver-001",
+    "full_name": "Ananya Das (Caregiver)",
+    "email": "ananya.das@sihdemo.local",
+    "password_hash": "pbkdf2_sha256$390000$1e6e25ed4a5d067984ada993a934a40c$1fc4de7096a4fbd10209e4dbe0760881a9cb5be0f2210c428f64633061f45f9e",
+    "role": "caregiver",
+    "specialization": "Family Caregiver",
+    "hospital": "Home Care Network, Assam",
+    "location": "Guwahati, Assam",
+    "patient_list": [
+      "sih-demo-patient-001"
+    ],
+    "created_at": "2026-09-09T21:02:04+00:00",
+    "last_login": "2026-09-10T17:19:25+00:00"
+  },
+  "62016f45-d650-4f1e-b21a-065d81d92127": {
+    "id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "full_name": "ADITI NANDI",
+    "email": "aditi22@gmail.com",
+    "password_hash": "pbkdf2_sha256$390000$4b0701ff3f44159d95624450e84702a4$c22abca71ef8260c81b1eb8f5978cdfd4bfa7f00522310080518130fb96b07a0",
+    "role": "patient",
+    "age": 45,
+    "gender": null,
+    "phone": null,
+    "license_number": null,
+    "created_at": "2026-09-09T20:55:39+00:00",
+    "last_login": "2026-09-10T03:41:37+00:00"
+  }
+}

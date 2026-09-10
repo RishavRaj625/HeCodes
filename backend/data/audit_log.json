@@ -1,0 +1,3303 @@
+[
+  {
+    "id": "4d4d9bc3-964c-435d-8941-f82adcab6b71",
+    "timestamp": "2026-09-09T20:21:06+00:00",
+    "event": "auth.register",
+    "actor_id": "6d19e6ce-a995-4508-b096-467a4855e639",
+    "actor_role": "doctor",
+    "subject_id": "6d19e6ce-a995-4508-b096-467a4855e639",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "3f926385-b7cf-41e7-b76a-b5f1c06090ef",
+    "timestamp": "2026-09-09T20:21:07+00:00",
+    "event": "auth.register",
+    "actor_id": "9ea13ab5-e32f-4d93-a6e0-f40dfaa30892",
+    "actor_role": "patient",
+    "subject_id": "9ea13ab5-e32f-4d93-a6e0-f40dfaa30892",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "8e2e3462-9462-4606-a253-969bf60d1a1a",
+    "timestamp": "2026-09-09T20:21:07+00:00",
+    "event": "consent.read",
+    "actor_id": "9ea13ab5-e32f-4d93-a6e0-f40dfaa30892",
+    "actor_role": "patient",
+    "subject_id": "9ea13ab5-e32f-4d93-a6e0-f40dfaa30892",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "5a094c6b-b199-46f7-ae3a-5b49dd34f97f",
+    "timestamp": "2026-09-09T20:21:08+00:00",
+    "event": "auth.register",
+    "actor_id": "05741ddc-95b4-4243-a691-d6aae45b7b1b",
+    "actor_role": "patient",
+    "subject_id": "05741ddc-95b4-4243-a691-d6aae45b7b1b",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "71294960-fbc7-48d5-86a1-f2218b4d1c70",
+    "timestamp": "2026-09-09T20:21:08+00:00",
+    "event": "auth.register",
+    "actor_id": "794ee668-cf05-40f2-88ea-c31258429880",
+    "actor_role": "doctor",
+    "subject_id": "794ee668-cf05-40f2-88ea-c31258429880",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "e66bf305-5dd7-4af0-b825-676af1e7e772",
+    "timestamp": "2026-09-09T20:21:09+00:00",
+    "event": "care_team.enrollment_requested",
+    "actor_id": "05741ddc-95b4-4243-a691-d6aae45b7b1b",
+    "actor_role": "guest",
+    "subject_id": "794ee668-cf05-40f2-88ea-c31258429880",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "d73633b4-d4f9-4e3b-8c06-2006a70a0cad",
+    "timestamp": "2026-09-09T20:21:09+00:00",
+    "event": "care_team.enrollment_approved",
+    "actor_id": "794ee668-cf05-40f2-88ea-c31258429880",
+    "actor_role": "guest",
+    "subject_id": "05741ddc-95b4-4243-a691-d6aae45b7b1b",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "action": "approve"
+    }
+  },
+  {
+    "id": "883b101c-8b3b-40c2-bfad-6bb7de54fd1f",
+    "timestamp": "2026-09-09T20:21:09+00:00",
+    "event": "consent.updated",
+    "actor_id": "05741ddc-95b4-4243-a691-d6aae45b7b1b",
+    "actor_role": "patient",
+    "subject_id": "05741ddc-95b4-4243-a691-d6aae45b7b1b",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "share_with_care_team": false,
+      "share_memory_bank": false,
+      "share_reminders": false,
+      "allow_research_deidentified": false
+    }
+  },
+  {
+    "id": "16365ae2-a695-40bf-9fde-184923fc0cb0",
+    "timestamp": "2026-09-09T20:21:09+00:00",
+    "event": "phi.access_denied",
+    "actor_id": "794ee668-cf05-40f2-88ea-c31258429880",
+    "actor_role": "doctor",
+    "subject_id": "05741ddc-95b4-4243-a691-d6aae45b7b1b",
+    "outcome": "forbidden",
+    "client_ip": null,
+    "metadata": {
+      "reason": "consent_withheld",
+      "resource": "cognitive_results"
+    }
+  },
+  {
+    "id": "3ebae612-6a95-47a8-9c33-3a11aca48ed6",
+    "timestamp": "2026-09-09T20:21:10+00:00",
+    "event": "auth.register",
+    "actor_id": "66993655-aba6-4420-a9ad-92688b43d95f",
+    "actor_role": "patient",
+    "subject_id": "66993655-aba6-4420-a9ad-92688b43d95f",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "4eaa1c18-5a50-4539-bbfe-9b26dd289ce5",
+    "timestamp": "2026-09-09T20:21:10+00:00",
+    "event": "auth.register",
+    "actor_id": "7ee964c3-edec-4925-9e07-6acf9e397851",
+    "actor_role": "doctor",
+    "subject_id": "7ee964c3-edec-4925-9e07-6acf9e397851",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "75b6c794-d218-4ebd-9038-5cbf51ac83a3",
+    "timestamp": "2026-09-09T20:21:10+00:00",
+    "event": "phi.access_denied",
+    "actor_id": "7ee964c3-edec-4925-9e07-6acf9e397851",
+    "actor_role": "doctor",
+    "subject_id": "66993655-aba6-4420-a9ad-92688b43d95f",
+    "outcome": "forbidden",
+    "client_ip": null,
+    "metadata": {
+      "reason": "unassigned_patient",
+      "resource": "cognitive_results"
+    }
+  },
+  {
+    "id": "14d70cd1-c4fd-4942-a291-a4d401853eae",
+    "timestamp": "2026-09-09T20:21:11+00:00",
+    "event": "auth.register",
+    "actor_id": "ae5741ce-ca8e-4e15-aa11-bb06995681a2",
+    "actor_role": "patient",
+    "subject_id": "ae5741ce-ca8e-4e15-aa11-bb06995681a2",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "bebdf0d2-f03e-4876-9f7b-42105bf193bc",
+    "timestamp": "2026-09-09T20:21:12+00:00",
+    "event": "auth.register",
+    "actor_id": "100cc7ff-7212-4aba-95a2-d2cb2415cb90",
+    "actor_role": "patient",
+    "subject_id": "100cc7ff-7212-4aba-95a2-d2cb2415cb90",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "6130a391-22e0-483a-852c-756b051f9a49",
+    "timestamp": "2026-09-09T20:21:12+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "100cc7ff-7212-4aba-95a2-d2cb2415cb90",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "d9d69c85-ec51-495f-9981-812527b6bb52",
+    "timestamp": "2026-09-09T20:21:13+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "100cc7ff-7212-4aba-95a2-d2cb2415cb90",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "4409bba6-8cf9-4241-8663-dd202e3c8a82",
+    "timestamp": "2026-09-09T20:21:13+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "100cc7ff-7212-4aba-95a2-d2cb2415cb90",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "9b9f66ea-33f7-4fc6-94cf-1fc2ba677371",
+    "timestamp": "2026-09-09T20:21:13+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "100cc7ff-7212-4aba-95a2-d2cb2415cb90",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "444debc0-263a-4d6b-bf8b-7cb8002ed930",
+    "timestamp": "2026-09-09T20:21:15+00:00",
+    "event": "auth.register",
+    "actor_id": "80b4e9a8-9389-4a05-bc6e-d393c5473e3d",
+    "actor_role": "patient",
+    "subject_id": "80b4e9a8-9389-4a05-bc6e-d393c5473e3d",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "87398f45-7c0c-4a15-9e97-609f98afdca1",
+    "timestamp": "2026-09-09T20:23:39+00:00",
+    "event": "auth.register",
+    "actor_id": "bc8dbd8a-9cb6-4616-8189-2952438221d1",
+    "actor_role": "doctor",
+    "subject_id": "bc8dbd8a-9cb6-4616-8189-2952438221d1",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "bc579139-6204-40e1-8700-312beeaef84b",
+    "timestamp": "2026-09-09T20:23:40+00:00",
+    "event": "auth.register",
+    "actor_id": "fe4e89cd-5fad-4d0f-bb18-f926eba7a260",
+    "actor_role": "patient",
+    "subject_id": "fe4e89cd-5fad-4d0f-bb18-f926eba7a260",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "2de85622-488d-4656-b79e-7945066fd959",
+    "timestamp": "2026-09-09T20:23:40+00:00",
+    "event": "consent.read",
+    "actor_id": "fe4e89cd-5fad-4d0f-bb18-f926eba7a260",
+    "actor_role": "patient",
+    "subject_id": "fe4e89cd-5fad-4d0f-bb18-f926eba7a260",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "bf530d45-4cb2-4e39-84b6-6e36ae8a4fb8",
+    "timestamp": "2026-09-09T20:23:40+00:00",
+    "event": "consent.updated",
+    "actor_id": "fe4e89cd-5fad-4d0f-bb18-f926eba7a260",
+    "actor_role": "patient",
+    "subject_id": "fe4e89cd-5fad-4d0f-bb18-f926eba7a260",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "share_with_care_team": false,
+      "share_memory_bank": false,
+      "share_reminders": true,
+      "allow_research_deidentified": true
+    }
+  },
+  {
+    "id": "c9d3622c-437d-45e6-ae05-7269eb5f9e5c",
+    "timestamp": "2026-09-09T20:23:41+00:00",
+    "event": "auth.register",
+    "actor_id": "b285a73b-8ed4-4dac-8cdd-f5eaa8ecb57d",
+    "actor_role": "patient",
+    "subject_id": "b285a73b-8ed4-4dac-8cdd-f5eaa8ecb57d",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "39a2b912-65d6-4b6c-92de-d6b21c787077",
+    "timestamp": "2026-09-09T20:23:42+00:00",
+    "event": "auth.register",
+    "actor_id": "ff3d384a-d1d9-46bb-895d-f6e94a2fe7ce",
+    "actor_role": "doctor",
+    "subject_id": "ff3d384a-d1d9-46bb-895d-f6e94a2fe7ce",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "5c4c08dc-5ee1-4e42-840b-90b5f2cda9b9",
+    "timestamp": "2026-09-09T20:23:42+00:00",
+    "event": "care_team.enrollment_requested",
+    "actor_id": "b285a73b-8ed4-4dac-8cdd-f5eaa8ecb57d",
+    "actor_role": "guest",
+    "subject_id": "ff3d384a-d1d9-46bb-895d-f6e94a2fe7ce",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "a6a7cf18-44e0-4362-a0cf-50353826c5f0",
+    "timestamp": "2026-09-09T20:23:42+00:00",
+    "event": "care_team.enrollment_approved",
+    "actor_id": "ff3d384a-d1d9-46bb-895d-f6e94a2fe7ce",
+    "actor_role": "guest",
+    "subject_id": "b285a73b-8ed4-4dac-8cdd-f5eaa8ecb57d",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "action": "approve"
+    }
+  },
+  {
+    "id": "8cc65ba1-9dcc-4667-8092-7137e820ce60",
+    "timestamp": "2026-09-09T20:23:43+00:00",
+    "event": "consent.updated",
+    "actor_id": "b285a73b-8ed4-4dac-8cdd-f5eaa8ecb57d",
+    "actor_role": "patient",
+    "subject_id": "b285a73b-8ed4-4dac-8cdd-f5eaa8ecb57d",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "share_with_care_team": false,
+      "share_memory_bank": false,
+      "share_reminders": false,
+      "allow_research_deidentified": false
+    }
+  },
+  {
+    "id": "a84f2b81-8871-4138-b1df-af8ce9dc7b34",
+    "timestamp": "2026-09-09T20:23:43+00:00",
+    "event": "phi.access_denied",
+    "actor_id": "ff3d384a-d1d9-46bb-895d-f6e94a2fe7ce",
+    "actor_role": "doctor",
+    "subject_id": "b285a73b-8ed4-4dac-8cdd-f5eaa8ecb57d",
+    "outcome": "forbidden",
+    "client_ip": null,
+    "metadata": {
+      "reason": "consent_withheld",
+      "resource": "cognitive_results"
+    }
+  },
+  {
+    "id": "0d8d1d83-352c-4376-a0e0-a1692d3c4da2",
+    "timestamp": "2026-09-09T20:23:44+00:00",
+    "event": "auth.register",
+    "actor_id": "bc54e03e-c743-43fb-a2e8-40e3b04ee599",
+    "actor_role": "patient",
+    "subject_id": "bc54e03e-c743-43fb-a2e8-40e3b04ee599",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "5d7394b5-ec41-4240-a5c9-e9daca82b2e1",
+    "timestamp": "2026-09-09T20:23:44+00:00",
+    "event": "auth.register",
+    "actor_id": "30a81714-3918-4bcb-85a1-25bff3a3763b",
+    "actor_role": "doctor",
+    "subject_id": "30a81714-3918-4bcb-85a1-25bff3a3763b",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "4213703e-de61-49a2-a378-1f0f11e8ac46",
+    "timestamp": "2026-09-09T20:23:45+00:00",
+    "event": "phi.access_denied",
+    "actor_id": "30a81714-3918-4bcb-85a1-25bff3a3763b",
+    "actor_role": "doctor",
+    "subject_id": "bc54e03e-c743-43fb-a2e8-40e3b04ee599",
+    "outcome": "forbidden",
+    "client_ip": null,
+    "metadata": {
+      "reason": "unassigned_patient",
+      "resource": "cognitive_results"
+    }
+  },
+  {
+    "id": "840feecc-af6e-4735-84a2-355a79a85bdf",
+    "timestamp": "2026-09-09T20:23:46+00:00",
+    "event": "auth.register",
+    "actor_id": "18b643a8-a687-457b-878f-7a01a78a1392",
+    "actor_role": "patient",
+    "subject_id": "18b643a8-a687-457b-878f-7a01a78a1392",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "2c0c1458-c5de-4e3a-b297-2135d68daa8b",
+    "timestamp": "2026-09-09T20:23:46+00:00",
+    "event": "auth.register",
+    "actor_id": "cbf86ce8-838c-4eef-9d12-e976199034ab",
+    "actor_role": "patient",
+    "subject_id": "cbf86ce8-838c-4eef-9d12-e976199034ab",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "496ddaad-c0ff-4a54-8ba1-1e18a6a55691",
+    "timestamp": "2026-09-09T20:23:47+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "cbf86ce8-838c-4eef-9d12-e976199034ab",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "7f10e7c8-bf03-443d-8095-d88b29e2696a",
+    "timestamp": "2026-09-09T20:23:47+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "cbf86ce8-838c-4eef-9d12-e976199034ab",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "429b38c2-6873-41a0-a256-87020709cd23",
+    "timestamp": "2026-09-09T20:23:48+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "cbf86ce8-838c-4eef-9d12-e976199034ab",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "7869bd6d-3d1e-44df-98fa-1a70c0846bee",
+    "timestamp": "2026-09-09T20:23:48+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "cbf86ce8-838c-4eef-9d12-e976199034ab",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "c753487e-ef02-4750-8482-dcdfc24b6874",
+    "timestamp": "2026-09-09T20:23:48+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "cbf86ce8-838c-4eef-9d12-e976199034ab",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "826f3685-5141-4f05-aef9-6c231815cdd6",
+    "timestamp": "2026-09-09T20:23:50+00:00",
+    "event": "auth.register",
+    "actor_id": "67284acc-f1cf-487b-843e-deba50a2d7f2",
+    "actor_role": "patient",
+    "subject_id": "67284acc-f1cf-487b-843e-deba50a2d7f2",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "ab46de0c-189b-465b-87c9-0446caa9e340",
+    "timestamp": "2026-09-09T20:23:50+00:00",
+    "event": "auth.register",
+    "actor_id": "00f7d06a-bdb8-4940-96e9-5353ecdf11cc",
+    "actor_role": "doctor",
+    "subject_id": "00f7d06a-bdb8-4940-96e9-5353ecdf11cc",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "e313ecb4-9a54-49a9-9ce7-9913018e0512",
+    "timestamp": "2026-09-09T20:23:51+00:00",
+    "event": "auth.register",
+    "actor_id": "2c61c72e-1e71-44da-8f32-69c69523c7f5",
+    "actor_role": "patient",
+    "subject_id": "2c61c72e-1e71-44da-8f32-69c69523c7f5",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "17e0a224-3a24-478f-bb9c-22d32cfbe637",
+    "timestamp": "2026-09-09T20:23:51+00:00",
+    "event": "auth.register",
+    "actor_id": "bea76490-570a-414f-bf9e-7327f139a904",
+    "actor_role": "patient",
+    "subject_id": "bea76490-570a-414f-bf9e-7327f139a904",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "ef66f73b-c4dd-448f-bd86-dc0c23aa6ed7",
+    "timestamp": "2026-09-09T20:24:13+00:00",
+    "event": "auth.register",
+    "actor_id": "d2ce5e03-ebc9-4d6e-9a36-117568b44fb9",
+    "actor_role": "doctor",
+    "subject_id": "d2ce5e03-ebc9-4d6e-9a36-117568b44fb9",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "53afb481-4c0b-4a0a-89cc-bcf9e81fa692",
+    "timestamp": "2026-09-09T20:24:15+00:00",
+    "event": "auth.register",
+    "actor_id": "1a5cb580-c592-4ea5-95aa-7287f2423920",
+    "actor_role": "patient",
+    "subject_id": "1a5cb580-c592-4ea5-95aa-7287f2423920",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "c269d9de-119a-4b00-9836-f60da5a3e9ae",
+    "timestamp": "2026-09-09T20:24:15+00:00",
+    "event": "consent.read",
+    "actor_id": "1a5cb580-c592-4ea5-95aa-7287f2423920",
+    "actor_role": "patient",
+    "subject_id": "1a5cb580-c592-4ea5-95aa-7287f2423920",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "a332a47d-4ea6-4916-926e-0c1d77ce2e97",
+    "timestamp": "2026-09-09T20:24:15+00:00",
+    "event": "consent.updated",
+    "actor_id": "1a5cb580-c592-4ea5-95aa-7287f2423920",
+    "actor_role": "patient",
+    "subject_id": "1a5cb580-c592-4ea5-95aa-7287f2423920",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "share_with_care_team": false,
+      "share_memory_bank": false,
+      "share_reminders": true,
+      "allow_research_deidentified": true
+    }
+  },
+  {
+    "id": "bf0a9389-4fcd-4145-8570-649d0bd01ed1",
+    "timestamp": "2026-09-09T20:24:16+00:00",
+    "event": "auth.register",
+    "actor_id": "5b8d5d99-aa55-4eb2-b796-11136b19e647",
+    "actor_role": "patient",
+    "subject_id": "5b8d5d99-aa55-4eb2-b796-11136b19e647",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "6d937cae-376c-4db3-a587-278b31106cc7",
+    "timestamp": "2026-09-09T20:24:16+00:00",
+    "event": "auth.register",
+    "actor_id": "f6f2ad12-5e26-4ad4-97cb-8c04f7049b6e",
+    "actor_role": "doctor",
+    "subject_id": "f6f2ad12-5e26-4ad4-97cb-8c04f7049b6e",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "7904efd4-a4e9-4f4d-abca-9355431ef96e",
+    "timestamp": "2026-09-09T20:24:16+00:00",
+    "event": "care_team.enrollment_requested",
+    "actor_id": "5b8d5d99-aa55-4eb2-b796-11136b19e647",
+    "actor_role": "guest",
+    "subject_id": "f6f2ad12-5e26-4ad4-97cb-8c04f7049b6e",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "00aa4b91-2ee6-4c9c-85dd-2df08baca23d",
+    "timestamp": "2026-09-09T20:24:16+00:00",
+    "event": "care_team.enrollment_approved",
+    "actor_id": "f6f2ad12-5e26-4ad4-97cb-8c04f7049b6e",
+    "actor_role": "guest",
+    "subject_id": "5b8d5d99-aa55-4eb2-b796-11136b19e647",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "action": "approve"
+    }
+  },
+  {
+    "id": "f87e6ebd-1e40-4165-97e1-d762449b0676",
+    "timestamp": "2026-09-09T20:24:16+00:00",
+    "event": "consent.updated",
+    "actor_id": "5b8d5d99-aa55-4eb2-b796-11136b19e647",
+    "actor_role": "patient",
+    "subject_id": "5b8d5d99-aa55-4eb2-b796-11136b19e647",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "share_with_care_team": false,
+      "share_memory_bank": false,
+      "share_reminders": false,
+      "allow_research_deidentified": false
+    }
+  },
+  {
+    "id": "3d1a42fc-e9bc-485a-b233-6916b652831a",
+    "timestamp": "2026-09-09T20:24:16+00:00",
+    "event": "phi.access_denied",
+    "actor_id": "f6f2ad12-5e26-4ad4-97cb-8c04f7049b6e",
+    "actor_role": "doctor",
+    "subject_id": "5b8d5d99-aa55-4eb2-b796-11136b19e647",
+    "outcome": "forbidden",
+    "client_ip": null,
+    "metadata": {
+      "reason": "consent_withheld",
+      "resource": "cognitive_results"
+    }
+  },
+  {
+    "id": "5d705e9c-fdcc-4915-b139-56ff18e1474f",
+    "timestamp": "2026-09-09T20:24:17+00:00",
+    "event": "auth.register",
+    "actor_id": "0b64ca74-b57d-4363-9438-bd1c133621d1",
+    "actor_role": "patient",
+    "subject_id": "0b64ca74-b57d-4363-9438-bd1c133621d1",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "0f11f472-095e-4c08-bbb4-8986a2217903",
+    "timestamp": "2026-09-09T20:24:18+00:00",
+    "event": "auth.register",
+    "actor_id": "5c262947-e7c9-4d13-8c06-b35903d617f0",
+    "actor_role": "doctor",
+    "subject_id": "5c262947-e7c9-4d13-8c06-b35903d617f0",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "3344dddf-21d0-4f0e-bf3d-812cf380be0b",
+    "timestamp": "2026-09-09T20:24:18+00:00",
+    "event": "phi.access_denied",
+    "actor_id": "5c262947-e7c9-4d13-8c06-b35903d617f0",
+    "actor_role": "doctor",
+    "subject_id": "0b64ca74-b57d-4363-9438-bd1c133621d1",
+    "outcome": "forbidden",
+    "client_ip": null,
+    "metadata": {
+      "reason": "unassigned_patient",
+      "resource": "cognitive_results"
+    }
+  },
+  {
+    "id": "38f37b57-1534-4942-af6c-0bb7bf8e3db6",
+    "timestamp": "2026-09-09T20:24:18+00:00",
+    "event": "auth.register",
+    "actor_id": "45ca26d9-7e32-4a74-8957-0ff8c74483b1",
+    "actor_role": "patient",
+    "subject_id": "45ca26d9-7e32-4a74-8957-0ff8c74483b1",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "da1213df-349d-4e0c-9f42-d8be79c8d899",
+    "timestamp": "2026-09-09T20:24:19+00:00",
+    "event": "auth.register",
+    "actor_id": "66039e32-6a44-4785-bbf7-bdf673e3cb90",
+    "actor_role": "patient",
+    "subject_id": "66039e32-6a44-4785-bbf7-bdf673e3cb90",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "72640670-2948-410a-9f81-34f02a2261c8",
+    "timestamp": "2026-09-09T20:24:20+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "66039e32-6a44-4785-bbf7-bdf673e3cb90",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "35913f66-1afe-4b79-8045-0366fba43605",
+    "timestamp": "2026-09-09T20:24:20+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "66039e32-6a44-4785-bbf7-bdf673e3cb90",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "43180b93-c2ee-4c3f-8091-0020f9897edf",
+    "timestamp": "2026-09-09T20:24:20+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "66039e32-6a44-4785-bbf7-bdf673e3cb90",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "96390a1d-36e5-4943-bdf6-aa99e0bd0061",
+    "timestamp": "2026-09-09T20:24:21+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "66039e32-6a44-4785-bbf7-bdf673e3cb90",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "f7a95d9c-ae71-4c81-9c1d-d7eb4cc89947",
+    "timestamp": "2026-09-09T20:24:21+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "66039e32-6a44-4785-bbf7-bdf673e3cb90",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "a2e3e15f-4012-4b5f-ae7c-5ec958c4ce82",
+    "timestamp": "2026-09-09T20:24:21+00:00",
+    "event": "auth.login.locked",
+    "actor_id": "lockout@example.com",
+    "actor_role": "guest",
+    "subject_id": null,
+    "outcome": "locked",
+    "client_ip": null,
+    "metadata": {
+      "attempts_count": 5
+    }
+  },
+  {
+    "id": "a83bf6ab-8980-48bf-8572-4aa40aa59adf",
+    "timestamp": "2026-09-09T20:24:24+00:00",
+    "event": "auth.register",
+    "actor_id": "f9a72c4d-2d5a-4939-ba85-96fff7fc2101",
+    "actor_role": "patient",
+    "subject_id": "f9a72c4d-2d5a-4939-ba85-96fff7fc2101",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "b841b50e-e2e6-4039-be11-366eb1376517",
+    "timestamp": "2026-09-09T20:24:25+00:00",
+    "event": "auth.register",
+    "actor_id": "0a4888a9-d63e-414b-9c91-9630305f3090",
+    "actor_role": "doctor",
+    "subject_id": "0a4888a9-d63e-414b-9c91-9630305f3090",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "e4636c26-bf01-4ee3-a97b-4d5a8261e052",
+    "timestamp": "2026-09-09T20:24:25+00:00",
+    "event": "auth.register",
+    "actor_id": "adbd72ea-1671-4837-855d-9d4cd4483441",
+    "actor_role": "patient",
+    "subject_id": "adbd72ea-1671-4837-855d-9d4cd4483441",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "c4d06026-f95b-4c99-9d45-8b9790a3880e",
+    "timestamp": "2026-09-09T20:24:25+00:00",
+    "event": "auth.register",
+    "actor_id": "2b36f1a2-6a0c-4052-a698-9b8b8ab83fa3",
+    "actor_role": "patient",
+    "subject_id": "2b36f1a2-6a0c-4052-a698-9b8b8ab83fa3",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "6a4f8806-7171-435e-b9d2-cacb2026d5b1",
+    "timestamp": "2026-09-09T20:24:36+00:00",
+    "event": "auth.register",
+    "actor_id": "3721a57f-c4a3-4882-b7ee-23fb166794e7",
+    "actor_role": "doctor",
+    "subject_id": "3721a57f-c4a3-4882-b7ee-23fb166794e7",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "795a7fdd-555c-40f9-bc5b-553940aa644e",
+    "timestamp": "2026-09-09T20:24:37+00:00",
+    "event": "auth.register",
+    "actor_id": "aaad32e1-3d93-4a91-be81-611a5feaf2ec",
+    "actor_role": "patient",
+    "subject_id": "aaad32e1-3d93-4a91-be81-611a5feaf2ec",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "f484336a-5178-44e0-9253-4c3def5e243a",
+    "timestamp": "2026-09-09T20:24:37+00:00",
+    "event": "consent.read",
+    "actor_id": "aaad32e1-3d93-4a91-be81-611a5feaf2ec",
+    "actor_role": "patient",
+    "subject_id": "aaad32e1-3d93-4a91-be81-611a5feaf2ec",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "a9ac87d7-01a6-4f7f-8c4b-52ba227a7c4f",
+    "timestamp": "2026-09-09T20:24:37+00:00",
+    "event": "consent.updated",
+    "actor_id": "aaad32e1-3d93-4a91-be81-611a5feaf2ec",
+    "actor_role": "patient",
+    "subject_id": "aaad32e1-3d93-4a91-be81-611a5feaf2ec",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "share_with_care_team": false,
+      "share_memory_bank": false,
+      "share_reminders": true,
+      "allow_research_deidentified": true
+    }
+  },
+  {
+    "id": "46320037-52cc-43e3-8901-e65d2005744b",
+    "timestamp": "2026-09-09T20:24:38+00:00",
+    "event": "auth.register",
+    "actor_id": "86fd4637-faf4-4c09-8e1e-5a29de59c861",
+    "actor_role": "patient",
+    "subject_id": "86fd4637-faf4-4c09-8e1e-5a29de59c861",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "dc6340c5-6109-4e01-b8f9-5a2fe2e6a173",
+    "timestamp": "2026-09-09T20:24:38+00:00",
+    "event": "auth.register",
+    "actor_id": "acc04df4-2620-48b7-96ec-b70da4600170",
+    "actor_role": "doctor",
+    "subject_id": "acc04df4-2620-48b7-96ec-b70da4600170",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "36beebb6-e5dc-4a3a-89af-27fda681f388",
+    "timestamp": "2026-09-09T20:24:38+00:00",
+    "event": "care_team.enrollment_requested",
+    "actor_id": "86fd4637-faf4-4c09-8e1e-5a29de59c861",
+    "actor_role": "guest",
+    "subject_id": "acc04df4-2620-48b7-96ec-b70da4600170",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "7e7bfd98-fce9-4c62-aac1-ba584e5e48d8",
+    "timestamp": "2026-09-09T20:24:39+00:00",
+    "event": "care_team.enrollment_approved",
+    "actor_id": "acc04df4-2620-48b7-96ec-b70da4600170",
+    "actor_role": "guest",
+    "subject_id": "86fd4637-faf4-4c09-8e1e-5a29de59c861",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "action": "approve"
+    }
+  },
+  {
+    "id": "eaaa221c-e751-4406-924f-4894ec5bb59a",
+    "timestamp": "2026-09-09T20:24:39+00:00",
+    "event": "consent.updated",
+    "actor_id": "86fd4637-faf4-4c09-8e1e-5a29de59c861",
+    "actor_role": "patient",
+    "subject_id": "86fd4637-faf4-4c09-8e1e-5a29de59c861",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "share_with_care_team": false,
+      "share_memory_bank": false,
+      "share_reminders": false,
+      "allow_research_deidentified": false
+    }
+  },
+  {
+    "id": "4a0795bc-bcf3-4ea8-a897-269339ad603f",
+    "timestamp": "2026-09-09T20:24:39+00:00",
+    "event": "phi.access_denied",
+    "actor_id": "acc04df4-2620-48b7-96ec-b70da4600170",
+    "actor_role": "doctor",
+    "subject_id": "86fd4637-faf4-4c09-8e1e-5a29de59c861",
+    "outcome": "forbidden",
+    "client_ip": null,
+    "metadata": {
+      "reason": "consent_withheld",
+      "resource": "cognitive_results"
+    }
+  },
+  {
+    "id": "56d2f628-41bd-466b-a88d-f1a9b5724322",
+    "timestamp": "2026-09-09T20:24:40+00:00",
+    "event": "auth.register",
+    "actor_id": "74e69177-a72c-4cf5-8e3e-8f5b339f18cf",
+    "actor_role": "patient",
+    "subject_id": "74e69177-a72c-4cf5-8e3e-8f5b339f18cf",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "965b58da-7488-4287-b43c-405f75bf0af0",
+    "timestamp": "2026-09-09T20:24:40+00:00",
+    "event": "auth.register",
+    "actor_id": "8a766f79-fb2e-40b7-82cd-aaa3a2e22ebb",
+    "actor_role": "doctor",
+    "subject_id": "8a766f79-fb2e-40b7-82cd-aaa3a2e22ebb",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "01ce0b30-17a5-4262-b6b1-4b45e9540cc3",
+    "timestamp": "2026-09-09T20:24:40+00:00",
+    "event": "phi.access_denied",
+    "actor_id": "8a766f79-fb2e-40b7-82cd-aaa3a2e22ebb",
+    "actor_role": "doctor",
+    "subject_id": "74e69177-a72c-4cf5-8e3e-8f5b339f18cf",
+    "outcome": "forbidden",
+    "client_ip": null,
+    "metadata": {
+      "reason": "unassigned_patient",
+      "resource": "cognitive_results"
+    }
+  },
+  {
+    "id": "78c10994-9ce6-4ab6-813c-d208e3b3ded0",
+    "timestamp": "2026-09-09T20:24:40+00:00",
+    "event": "auth.register",
+    "actor_id": "285f2016-8f12-4c94-a22f-26d9300b0913",
+    "actor_role": "patient",
+    "subject_id": "285f2016-8f12-4c94-a22f-26d9300b0913",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "6baff463-a8af-4da3-bba5-3f947036ed19",
+    "timestamp": "2026-09-09T20:24:41+00:00",
+    "event": "auth.register",
+    "actor_id": "9e6ee5f8-ef57-457b-83a2-745d413f12ed",
+    "actor_role": "patient",
+    "subject_id": "9e6ee5f8-ef57-457b-83a2-745d413f12ed",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "2e71ffaf-36fe-4bfe-b2d1-b9331a3f0e23",
+    "timestamp": "2026-09-09T20:24:41+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "9e6ee5f8-ef57-457b-83a2-745d413f12ed",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "4eb29fdb-c9a2-4aa4-a206-f816b0ccccd5",
+    "timestamp": "2026-09-09T20:24:42+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "9e6ee5f8-ef57-457b-83a2-745d413f12ed",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "321bca42-464e-4809-b432-a95d0a4d9316",
+    "timestamp": "2026-09-09T20:24:42+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "9e6ee5f8-ef57-457b-83a2-745d413f12ed",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "872542ac-9998-4c5f-9d7a-3b2b37a5f3d2",
+    "timestamp": "2026-09-09T20:24:43+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "9e6ee5f8-ef57-457b-83a2-745d413f12ed",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "1f06c0bd-820b-4f04-8aa5-c90d6431a398",
+    "timestamp": "2026-09-09T20:24:43+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "9e6ee5f8-ef57-457b-83a2-745d413f12ed",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "9ea5ac0c-16ec-4531-bd0c-72c56da4bbd5",
+    "timestamp": "2026-09-09T20:24:43+00:00",
+    "event": "auth.login.locked",
+    "actor_id": "lockout@example.com",
+    "actor_role": "guest",
+    "subject_id": null,
+    "outcome": "locked",
+    "client_ip": null,
+    "metadata": {
+      "attempts_count": 5
+    }
+  },
+  {
+    "id": "354e526d-0f11-4a4a-afa8-d9e05562f7f4",
+    "timestamp": "2026-09-09T20:24:45+00:00",
+    "event": "auth.register",
+    "actor_id": "acc07e11-f359-44c0-9a85-ab7cb41a0ea0",
+    "actor_role": "patient",
+    "subject_id": "acc07e11-f359-44c0-9a85-ab7cb41a0ea0",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "4088b4de-2ab3-4dde-82fa-e5f7c5f83649",
+    "timestamp": "2026-09-09T20:24:46+00:00",
+    "event": "auth.register",
+    "actor_id": "67972fc5-db8f-4189-bef3-29b54d7601ef",
+    "actor_role": "doctor",
+    "subject_id": "67972fc5-db8f-4189-bef3-29b54d7601ef",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "f016ca5c-827c-4a85-9f1d-022c157bfecb",
+    "timestamp": "2026-09-09T20:24:46+00:00",
+    "event": "auth.register",
+    "actor_id": "eb83ce80-3bc9-430f-bf37-1f454c20b8d1",
+    "actor_role": "patient",
+    "subject_id": "eb83ce80-3bc9-430f-bf37-1f454c20b8d1",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "43af36ea-bc20-4705-94b8-1ff38e7a5cea",
+    "timestamp": "2026-09-09T20:24:47+00:00",
+    "event": "auth.register",
+    "actor_id": "de30345d-be14-4705-be64-4c14b364e851",
+    "actor_role": "patient",
+    "subject_id": "de30345d-be14-4705-be64-4c14b364e851",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "bd410674-bd64-4585-9af8-f4b12202100e",
+    "timestamp": "2026-09-09T20:27:32+00:00",
+    "event": "auth.register",
+    "actor_id": "31aa2279-8696-42fd-995e-ccb05317a6c3",
+    "actor_role": "doctor",
+    "subject_id": "31aa2279-8696-42fd-995e-ccb05317a6c3",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "6902e73b-8a82-4ce4-9385-72bbea8252b8",
+    "timestamp": "2026-09-09T20:27:33+00:00",
+    "event": "auth.register",
+    "actor_id": "29968b60-b30f-4dde-bd87-ad930e18c7ff",
+    "actor_role": "patient",
+    "subject_id": "29968b60-b30f-4dde-bd87-ad930e18c7ff",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "8e434077-8804-4578-9b0e-0c63efd08d50",
+    "timestamp": "2026-09-09T20:27:33+00:00",
+    "event": "consent.read",
+    "actor_id": "29968b60-b30f-4dde-bd87-ad930e18c7ff",
+    "actor_role": "patient",
+    "subject_id": "29968b60-b30f-4dde-bd87-ad930e18c7ff",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "145d287a-42a3-4b82-9e11-2de32e11db5c",
+    "timestamp": "2026-09-09T20:27:33+00:00",
+    "event": "consent.updated",
+    "actor_id": "29968b60-b30f-4dde-bd87-ad930e18c7ff",
+    "actor_role": "patient",
+    "subject_id": "29968b60-b30f-4dde-bd87-ad930e18c7ff",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "share_with_care_team": false,
+      "share_memory_bank": false,
+      "share_reminders": true,
+      "allow_research_deidentified": true
+    }
+  },
+  {
+    "id": "65511e2a-dc4c-491e-a500-b464dd799826",
+    "timestamp": "2026-09-09T20:27:34+00:00",
+    "event": "auth.register",
+    "actor_id": "4e9ebf6c-5629-4bde-aded-a8ee31b453fc",
+    "actor_role": "patient",
+    "subject_id": "4e9ebf6c-5629-4bde-aded-a8ee31b453fc",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "cb564315-d840-4296-8cb7-d6807b376627",
+    "timestamp": "2026-09-09T20:27:34+00:00",
+    "event": "auth.register",
+    "actor_id": "1c1bdb87-654e-4dd6-9422-296da3162cc5",
+    "actor_role": "doctor",
+    "subject_id": "1c1bdb87-654e-4dd6-9422-296da3162cc5",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "7c1e82a1-e242-4e4f-9ef0-f5323e28b298",
+    "timestamp": "2026-09-09T20:27:34+00:00",
+    "event": "care_team.enrollment_requested",
+    "actor_id": "4e9ebf6c-5629-4bde-aded-a8ee31b453fc",
+    "actor_role": "guest",
+    "subject_id": "1c1bdb87-654e-4dd6-9422-296da3162cc5",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "efbc10f8-8631-46ef-ba2a-51e3722f3236",
+    "timestamp": "2026-09-09T20:27:35+00:00",
+    "event": "care_team.enrollment_approved",
+    "actor_id": "1c1bdb87-654e-4dd6-9422-296da3162cc5",
+    "actor_role": "guest",
+    "subject_id": "4e9ebf6c-5629-4bde-aded-a8ee31b453fc",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "action": "approve"
+    }
+  },
+  {
+    "id": "402079af-3cda-4cb1-aa95-2a64bc193734",
+    "timestamp": "2026-09-09T20:27:35+00:00",
+    "event": "consent.updated",
+    "actor_id": "4e9ebf6c-5629-4bde-aded-a8ee31b453fc",
+    "actor_role": "patient",
+    "subject_id": "4e9ebf6c-5629-4bde-aded-a8ee31b453fc",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "share_with_care_team": false,
+      "share_memory_bank": false,
+      "share_reminders": false,
+      "allow_research_deidentified": false
+    }
+  },
+  {
+    "id": "21bc6537-0f2d-44b7-86b1-9a562c6d29fe",
+    "timestamp": "2026-09-09T20:27:35+00:00",
+    "event": "phi.access_denied",
+    "actor_id": "1c1bdb87-654e-4dd6-9422-296da3162cc5",
+    "actor_role": "doctor",
+    "subject_id": "4e9ebf6c-5629-4bde-aded-a8ee31b453fc",
+    "outcome": "forbidden",
+    "client_ip": null,
+    "metadata": {
+      "reason": "consent_withheld",
+      "resource": "cognitive_results"
+    }
+  },
+  {
+    "id": "55e8cdec-282d-40ad-8d0a-2c64895221cd",
+    "timestamp": "2026-09-09T20:27:36+00:00",
+    "event": "auth.register",
+    "actor_id": "c5b67e29-fb4e-4128-83ba-52a254de4b6f",
+    "actor_role": "patient",
+    "subject_id": "c5b67e29-fb4e-4128-83ba-52a254de4b6f",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "f410cfdd-51fe-4f04-8793-5985021ed2c6",
+    "timestamp": "2026-09-09T20:27:36+00:00",
+    "event": "auth.register",
+    "actor_id": "3840d3b8-bf20-48c6-8b4b-c2fe844d1739",
+    "actor_role": "doctor",
+    "subject_id": "3840d3b8-bf20-48c6-8b4b-c2fe844d1739",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "cf8a88a5-0d77-4e55-aae8-e77e923830c3",
+    "timestamp": "2026-09-09T20:27:36+00:00",
+    "event": "phi.access_denied",
+    "actor_id": "3840d3b8-bf20-48c6-8b4b-c2fe844d1739",
+    "actor_role": "doctor",
+    "subject_id": "c5b67e29-fb4e-4128-83ba-52a254de4b6f",
+    "outcome": "forbidden",
+    "client_ip": null,
+    "metadata": {
+      "reason": "unassigned_patient",
+      "resource": "cognitive_results"
+    }
+  },
+  {
+    "id": "fd4a44aa-44fd-4402-8ee6-20efec770696",
+    "timestamp": "2026-09-09T20:27:37+00:00",
+    "event": "auth.register",
+    "actor_id": "34269e51-5ed7-4486-8844-24c3bf5636f5",
+    "actor_role": "patient",
+    "subject_id": "34269e51-5ed7-4486-8844-24c3bf5636f5",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "7191a304-be3e-4875-8e3b-e8f75916976a",
+    "timestamp": "2026-09-09T20:27:38+00:00",
+    "event": "auth.register",
+    "actor_id": "d138e32d-2011-4d17-9a9f-4a8cc10fa6a9",
+    "actor_role": "patient",
+    "subject_id": "d138e32d-2011-4d17-9a9f-4a8cc10fa6a9",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "a3deffd0-a174-4a1b-80dd-4814c511c81b",
+    "timestamp": "2026-09-09T20:27:38+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "d138e32d-2011-4d17-9a9f-4a8cc10fa6a9",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "2d0186c6-9a4f-4078-9a7a-d3995b0aa32d",
+    "timestamp": "2026-09-09T20:27:39+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "d138e32d-2011-4d17-9a9f-4a8cc10fa6a9",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "776522f6-673b-4412-bac3-addca078a5a0",
+    "timestamp": "2026-09-09T20:27:39+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "d138e32d-2011-4d17-9a9f-4a8cc10fa6a9",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "1fb1bdb8-669b-4465-bd28-88349cde912c",
+    "timestamp": "2026-09-09T20:27:39+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "d138e32d-2011-4d17-9a9f-4a8cc10fa6a9",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "217f2a07-5710-499a-955f-c53f445042df",
+    "timestamp": "2026-09-09T20:27:40+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "d138e32d-2011-4d17-9a9f-4a8cc10fa6a9",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "75f0045e-bd38-4aa4-aa0e-97584592bade",
+    "timestamp": "2026-09-09T20:27:40+00:00",
+    "event": "auth.login.locked",
+    "actor_id": "lockout@example.com",
+    "actor_role": "guest",
+    "subject_id": null,
+    "outcome": "locked",
+    "client_ip": null,
+    "metadata": {
+      "attempts_count": 5
+    }
+  },
+  {
+    "id": "9250566c-3463-47b2-9ae3-cf2afa92f3ad",
+    "timestamp": "2026-09-09T20:27:42+00:00",
+    "event": "auth.register",
+    "actor_id": "1d2a9919-c52a-428d-a583-b336014fbfb8",
+    "actor_role": "patient",
+    "subject_id": "1d2a9919-c52a-428d-a583-b336014fbfb8",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "b2df144e-9191-48eb-88f9-6ab5c34bae85",
+    "timestamp": "2026-09-09T20:27:42+00:00",
+    "event": "auth.register",
+    "actor_id": "06afed47-6908-47e2-9ad5-77d943d8149d",
+    "actor_role": "doctor",
+    "subject_id": "06afed47-6908-47e2-9ad5-77d943d8149d",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "4e082463-f390-437c-b9b7-7d54a6922d3e",
+    "timestamp": "2026-09-09T20:27:43+00:00",
+    "event": "auth.register",
+    "actor_id": "f94fa87b-d417-4d73-9901-59035d9ed4ca",
+    "actor_role": "patient",
+    "subject_id": "f94fa87b-d417-4d73-9901-59035d9ed4ca",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "4dba8d7e-19a7-4177-bfa7-da7cd7b3cebc",
+    "timestamp": "2026-09-09T20:27:43+00:00",
+    "event": "auth.register",
+    "actor_id": "bbd8264a-db84-4d60-8ad0-a2e55a1b1244",
+    "actor_role": "patient",
+    "subject_id": "bbd8264a-db84-4d60-8ad0-a2e55a1b1244",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "27c663f3-7f7c-4955-928a-d0c53328023c",
+    "timestamp": "2026-09-09T20:35:35+00:00",
+    "event": "auth.register",
+    "actor_id": "6bf5eab8-7124-435b-b7c6-b9f7c7c3855b",
+    "actor_role": "doctor",
+    "subject_id": "6bf5eab8-7124-435b-b7c6-b9f7c7c3855b",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "1b7e2e4e-4482-4369-91ad-dd25df5322d6",
+    "timestamp": "2026-09-09T20:35:36+00:00",
+    "event": "auth.register",
+    "actor_id": "db016643-db41-44a5-8c19-98bb6207fef9",
+    "actor_role": "patient",
+    "subject_id": "db016643-db41-44a5-8c19-98bb6207fef9",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "ee1b4070-e5d0-47e1-8d6a-d5cc2b9e81d0",
+    "timestamp": "2026-09-09T20:35:36+00:00",
+    "event": "consent.read",
+    "actor_id": "db016643-db41-44a5-8c19-98bb6207fef9",
+    "actor_role": "patient",
+    "subject_id": "db016643-db41-44a5-8c19-98bb6207fef9",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "4092467b-5a17-447c-aa3d-17ba27697a4e",
+    "timestamp": "2026-09-09T20:35:37+00:00",
+    "event": "consent.updated",
+    "actor_id": "db016643-db41-44a5-8c19-98bb6207fef9",
+    "actor_role": "patient",
+    "subject_id": "db016643-db41-44a5-8c19-98bb6207fef9",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "share_with_care_team": false,
+      "share_memory_bank": false,
+      "share_reminders": true,
+      "allow_research_deidentified": true
+    }
+  },
+  {
+    "id": "62e3d98f-c611-4604-b0a8-405e164d3a5f",
+    "timestamp": "2026-09-09T20:35:38+00:00",
+    "event": "auth.register",
+    "actor_id": "be6fb8db-fddc-45c0-87b9-58431e144970",
+    "actor_role": "patient",
+    "subject_id": "be6fb8db-fddc-45c0-87b9-58431e144970",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "bb2a7772-ac96-4cae-b7a8-35e9f3c65ce4",
+    "timestamp": "2026-09-09T20:35:39+00:00",
+    "event": "auth.register",
+    "actor_id": "2a7c4fd7-9488-4e1f-8097-7eb6143056d3",
+    "actor_role": "doctor",
+    "subject_id": "2a7c4fd7-9488-4e1f-8097-7eb6143056d3",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "2b90d4b0-80a0-4c7a-b8ec-cd536d6bb90a",
+    "timestamp": "2026-09-09T20:35:39+00:00",
+    "event": "care_team.enrollment_requested",
+    "actor_id": "be6fb8db-fddc-45c0-87b9-58431e144970",
+    "actor_role": "guest",
+    "subject_id": "2a7c4fd7-9488-4e1f-8097-7eb6143056d3",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "ec3d45ac-fbc9-4731-a432-58a846479b75",
+    "timestamp": "2026-09-09T20:35:39+00:00",
+    "event": "care_team.enrollment_approved",
+    "actor_id": "2a7c4fd7-9488-4e1f-8097-7eb6143056d3",
+    "actor_role": "guest",
+    "subject_id": "be6fb8db-fddc-45c0-87b9-58431e144970",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "action": "approve"
+    }
+  },
+  {
+    "id": "e18e2519-d1e2-42be-b13f-216a3c915876",
+    "timestamp": "2026-09-09T20:35:39+00:00",
+    "event": "consent.updated",
+    "actor_id": "be6fb8db-fddc-45c0-87b9-58431e144970",
+    "actor_role": "patient",
+    "subject_id": "be6fb8db-fddc-45c0-87b9-58431e144970",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "share_with_care_team": false,
+      "share_memory_bank": false,
+      "share_reminders": false,
+      "allow_research_deidentified": false
+    }
+  },
+  {
+    "id": "49b24a1f-5248-4240-9d8d-9cdcb8c42537",
+    "timestamp": "2026-09-09T20:35:39+00:00",
+    "event": "phi.access_denied",
+    "actor_id": "2a7c4fd7-9488-4e1f-8097-7eb6143056d3",
+    "actor_role": "doctor",
+    "subject_id": "be6fb8db-fddc-45c0-87b9-58431e144970",
+    "outcome": "forbidden",
+    "client_ip": null,
+    "metadata": {
+      "reason": "consent_withheld",
+      "resource": "cognitive_results"
+    }
+  },
+  {
+    "id": "2aeb1fc2-fb84-48ba-a849-562a63f24451",
+    "timestamp": "2026-09-09T20:35:41+00:00",
+    "event": "auth.register",
+    "actor_id": "85f545c3-457b-4d7d-9582-003f900c799b",
+    "actor_role": "patient",
+    "subject_id": "85f545c3-457b-4d7d-9582-003f900c799b",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "6bcc4831-59e1-46f6-8982-bfa1e631f79f",
+    "timestamp": "2026-09-09T20:35:41+00:00",
+    "event": "auth.register",
+    "actor_id": "099fb1f2-43de-4bdf-b0bf-34feaf6823d1",
+    "actor_role": "doctor",
+    "subject_id": "099fb1f2-43de-4bdf-b0bf-34feaf6823d1",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "ce5ff6d5-a686-47a2-a7b0-60cada486ff7",
+    "timestamp": "2026-09-09T20:35:41+00:00",
+    "event": "phi.access_denied",
+    "actor_id": "099fb1f2-43de-4bdf-b0bf-34feaf6823d1",
+    "actor_role": "doctor",
+    "subject_id": "85f545c3-457b-4d7d-9582-003f900c799b",
+    "outcome": "forbidden",
+    "client_ip": null,
+    "metadata": {
+      "reason": "unassigned_patient",
+      "resource": "cognitive_results"
+    }
+  },
+  {
+    "id": "a0d567d2-9e8d-4d14-aea0-1c2f88ff4e68",
+    "timestamp": "2026-09-09T20:35:42+00:00",
+    "event": "auth.register",
+    "actor_id": "fcd6f5dc-fb56-473a-852d-fae1e5e4ae04",
+    "actor_role": "patient",
+    "subject_id": "fcd6f5dc-fb56-473a-852d-fae1e5e4ae04",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "6138ee1b-a7be-46e0-afdc-e48903e7e793",
+    "timestamp": "2026-09-09T20:35:44+00:00",
+    "event": "auth.register",
+    "actor_id": "b01ea91e-cb53-4267-b69a-49b0b0fc5274",
+    "actor_role": "patient",
+    "subject_id": "b01ea91e-cb53-4267-b69a-49b0b0fc5274",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "a18c1ad5-16be-4b2a-8023-51d5ed2d05f0",
+    "timestamp": "2026-09-09T20:35:44+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "b01ea91e-cb53-4267-b69a-49b0b0fc5274",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "9ff0113f-a0cd-4cc6-83f8-cd238a88a88f",
+    "timestamp": "2026-09-09T20:35:45+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "b01ea91e-cb53-4267-b69a-49b0b0fc5274",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "51950402-3a6e-4a93-a1ae-13a07736a510",
+    "timestamp": "2026-09-09T20:35:45+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "b01ea91e-cb53-4267-b69a-49b0b0fc5274",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "adad3509-74dc-489f-91c4-fc1534e88eb4",
+    "timestamp": "2026-09-09T20:35:45+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "b01ea91e-cb53-4267-b69a-49b0b0fc5274",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "b34b054d-63ba-4921-be75-7efcfc98ea85",
+    "timestamp": "2026-09-09T20:35:46+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "b01ea91e-cb53-4267-b69a-49b0b0fc5274",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "8d58e200-80fe-4ead-8a6c-19eabe188f52",
+    "timestamp": "2026-09-09T20:35:46+00:00",
+    "event": "auth.login.locked",
+    "actor_id": "lockout@example.com",
+    "actor_role": "guest",
+    "subject_id": null,
+    "outcome": "locked",
+    "client_ip": null,
+    "metadata": {
+      "attempts_count": 5
+    }
+  },
+  {
+    "id": "74065ad9-603c-4d56-886c-76bd1c386886",
+    "timestamp": "2026-09-09T20:35:49+00:00",
+    "event": "auth.register",
+    "actor_id": "fb7af9a9-b001-401c-91bf-5121f3b1f428",
+    "actor_role": "patient",
+    "subject_id": "fb7af9a9-b001-401c-91bf-5121f3b1f428",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "5974fd43-b0c3-49ba-b8a5-e142f0c1a6fe",
+    "timestamp": "2026-09-09T20:35:50+00:00",
+    "event": "auth.register",
+    "actor_id": "e2654660-8066-4dd0-be67-10d57cc1a7e8",
+    "actor_role": "doctor",
+    "subject_id": "e2654660-8066-4dd0-be67-10d57cc1a7e8",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "31da0d44-1632-4196-8bb1-d888e245b5ed",
+    "timestamp": "2026-09-09T20:35:50+00:00",
+    "event": "auth.register",
+    "actor_id": "b1487a83-fc52-4a84-88c3-6e2711791316",
+    "actor_role": "patient",
+    "subject_id": "b1487a83-fc52-4a84-88c3-6e2711791316",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "cdbb8556-6e92-4b1f-bb15-661a0b882587",
+    "timestamp": "2026-09-09T20:35:50+00:00",
+    "event": "auth.register",
+    "actor_id": "408556d5-da8e-4b12-8864-14e7e7c841d1",
+    "actor_role": "patient",
+    "subject_id": "408556d5-da8e-4b12-8864-14e7e7c841d1",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "170f87a8-28e1-42f1-aef5-841b2bf9134c",
+    "timestamp": "2026-09-09T20:43:54+00:00",
+    "event": "demo.seeded",
+    "actor_id": "sih_system",
+    "actor_role": "guest",
+    "subject_id": null,
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "patient_id": "sih-demo-patient-001",
+      "doctor_id": "sih-demo-doctor-001"
+    }
+  },
+  {
+    "id": "66f77407-0f30-4281-b103-0fac80e71fb6",
+    "timestamp": "2026-09-09T20:43:54+00:00",
+    "event": "phi.read_self",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 6
+    }
+  },
+  {
+    "id": "262705c9-1973-4deb-99ff-3e9013db8a2c",
+    "timestamp": "2026-09-09T20:43:54+00:00",
+    "event": "phi.read_self",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 6
+    }
+  },
+  {
+    "id": "9df146b5-3ef5-48f2-957c-c60728ce70c7",
+    "timestamp": "2026-09-09T20:44:56+00:00",
+    "event": "phi.memory_bank.read",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 4
+    }
+  },
+  {
+    "id": "9c374ad4-18ee-4293-aa7d-0844d31c9ef1",
+    "timestamp": "2026-09-09T20:44:57+00:00",
+    "event": "phi.reminders.read",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 3
+    }
+  },
+  {
+    "id": "dae9823d-0d7a-4f65-a510-81b52c87e85b",
+    "timestamp": "2026-09-09T20:44:57+00:00",
+    "event": "phi.memory_bank.read",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 4
+    }
+  },
+  {
+    "id": "808dc3a5-3c46-475e-bbfe-ad3a53caacdc",
+    "timestamp": "2026-09-09T20:44:57+00:00",
+    "event": "phi.reminders.read",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 3
+    }
+  },
+  {
+    "id": "bd366d32-4077-4dc0-8ec3-511a3d665977",
+    "timestamp": "2026-09-09T20:45:12+00:00",
+    "event": "phi.reminders.completed",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "reminder_id": "rem-sih-001"
+    }
+  },
+  {
+    "id": "4f657c75-7a1c-4335-82ee-ea7a1a824ad0",
+    "timestamp": "2026-09-09T20:45:13+00:00",
+    "event": "phi.reminders.completed",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "reminder_id": "rem-sih-001"
+    }
+  },
+  {
+    "id": "5205e72c-82be-446e-ac30-a77484c91a14",
+    "timestamp": "2026-09-09T20:45:44+00:00",
+    "event": "dashboard.overview_read",
+    "actor_id": "sih-demo-caregiver-001",
+    "actor_role": "caregiver",
+    "subject_id": null,
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "patient_count": 1
+    }
+  },
+  {
+    "id": "026df07b-91f9-4b86-b40d-7060a33c7c02",
+    "timestamp": "2026-09-09T20:45:44+00:00",
+    "event": "dashboard.overview_read",
+    "actor_id": "sih-demo-caregiver-001",
+    "actor_role": "caregiver",
+    "subject_id": null,
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "patient_count": 1
+    }
+  },
+  {
+    "id": "4492c909-b43b-47f8-8fb6-50064dd1b3f3",
+    "timestamp": "2026-09-09T20:45:44+00:00",
+    "event": "dashboard.patient_detail_read",
+    "actor_id": "sih-demo-caregiver-001",
+    "actor_role": "caregiver",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "c5413652-503d-41ce-a926-b3aa3a78e321",
+    "timestamp": "2026-09-09T20:45:45+00:00",
+    "event": "dashboard.patient_detail_read",
+    "actor_id": "sih-demo-caregiver-001",
+    "actor_role": "caregiver",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "c3e9ead5-6088-49e2-82e1-3725fbe23812",
+    "timestamp": "2026-09-09T20:45:56+00:00",
+    "event": "phi.read",
+    "actor_id": "sih-demo-doctor-001",
+    "actor_role": "doctor",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 6,
+      "resource": "cognitive_results"
+    }
+  },
+  {
+    "id": "742da357-f8af-491a-a5f6-46e334229303",
+    "timestamp": "2026-09-09T20:45:56+00:00",
+    "event": "phi.read",
+    "actor_id": "sih-demo-doctor-001",
+    "actor_role": "doctor",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 6,
+      "resource": "cognitive_results"
+    }
+  },
+  {
+    "id": "0358d133-448d-497d-ac30-6bdc2ef76bcf",
+    "timestamp": "2026-09-09T20:47:13+00:00",
+    "event": "auth.logout",
+    "actor_id": "sih-demo-doctor-001",
+    "actor_role": "guest",
+    "subject_id": null,
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "51f89209-7266-42d0-930f-1983041c610e",
+    "timestamp": "2026-09-09T20:54:57+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "aditi@gmail.com",
+    "actor_role": "guest",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "user_not_found"
+    }
+  },
+  {
+    "id": "77ddaa06-6b33-4b7f-8fe9-c3b0f1c0f5de",
+    "timestamp": "2026-09-09T20:55:41+00:00",
+    "event": "auth.register",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "d4389686-8b66-4364-9fd0-a21496233c51",
+    "timestamp": "2026-09-09T20:56:03+00:00",
+    "event": "phi.read_self",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 0
+    }
+  },
+  {
+    "id": "4ee1e595-b699-4708-9ce4-22e9ead7682e",
+    "timestamp": "2026-09-09T20:56:03+00:00",
+    "event": "phi.read_self",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 0
+    }
+  },
+  {
+    "id": "ae726be5-a6b9-4f74-9d1b-09faae41b970",
+    "timestamp": "2026-09-09T20:57:08+00:00",
+    "event": "auth.login.success",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "5f4758ad-d072-4b71-bc2a-70e03b3c3ca6",
+    "timestamp": "2026-09-09T20:57:09+00:00",
+    "event": "phi.read_self",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 0
+    }
+  },
+  {
+    "id": "130d6d79-a7b1-4b87-815a-e0b54293985a",
+    "timestamp": "2026-09-09T20:57:10+00:00",
+    "event": "phi.read_self",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 0
+    }
+  },
+  {
+    "id": "787187d2-4490-4f56-865f-d96bc87da5f1",
+    "timestamp": "2026-09-09T20:57:54+00:00",
+    "event": "auth.login.success",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "bda00024-c35b-4fd5-a270-bddb22cc6c85",
+    "timestamp": "2026-09-09T20:57:55+00:00",
+    "event": "phi.read_self",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 0
+    }
+  },
+  {
+    "id": "43586d26-a665-4d9d-abc9-895fd958527a",
+    "timestamp": "2026-09-09T20:57:56+00:00",
+    "event": "phi.read_self",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 0
+    }
+  },
+  {
+    "id": "7ff1db48-7e6d-42b5-a0e7-03bdcf77f4cd",
+    "timestamp": "2026-09-09T21:02:08+00:00",
+    "event": "demo.seeded",
+    "actor_id": "sih_system",
+    "actor_role": "guest",
+    "subject_id": null,
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "patient_id": "sih-demo-patient-001",
+      "doctor_id": "sih-demo-doctor-001"
+    }
+  },
+  {
+    "id": "6c5e938f-14f6-4e53-8c8d-52be34617b58",
+    "timestamp": "2026-09-09T21:02:08+00:00",
+    "event": "phi.read_self",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 6
+    }
+  },
+  {
+    "id": "cb67484c-6b94-43bf-84ab-7df22bb3937e",
+    "timestamp": "2026-09-09T21:02:09+00:00",
+    "event": "phi.read_self",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 6
+    }
+  },
+  {
+    "id": "5a3a08bf-727f-4a4a-9c1d-69018a2b4ba7",
+    "timestamp": "2026-09-09T21:03:14+00:00",
+    "event": "phi.read_self",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 6
+    }
+  },
+  {
+    "id": "232a0eec-963c-4902-8a1c-3ab25c7fdd1d",
+    "timestamp": "2026-09-09T21:03:15+00:00",
+    "event": "phi.read_self",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 6
+    }
+  },
+  {
+    "id": "f6e07fdc-795a-42de-ab1a-ff37bc13988e",
+    "timestamp": "2026-09-09T21:03:27+00:00",
+    "event": "phi.read_self",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 6
+    }
+  },
+  {
+    "id": "02b20698-4ac5-4375-8cdd-ce1308c39523",
+    "timestamp": "2026-09-09T21:03:28+00:00",
+    "event": "phi.read_self",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 6
+    }
+  },
+  {
+    "id": "84aa844f-a1ee-4e21-897e-6a949872b120",
+    "timestamp": "2026-09-09T21:03:44+00:00",
+    "event": "phi.reminders.read",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 3
+    }
+  },
+  {
+    "id": "b148979e-be0f-4c08-9f2c-7bae004b8d18",
+    "timestamp": "2026-09-09T21:03:44+00:00",
+    "event": "phi.memory_bank.read",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 4
+    }
+  },
+  {
+    "id": "66c7bc7b-89f0-4658-b56f-2bf66dc48cde",
+    "timestamp": "2026-09-09T21:03:45+00:00",
+    "event": "phi.reminders.read",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 3
+    }
+  },
+  {
+    "id": "b81d86aa-3e88-493c-9e6a-0a7975932bc2",
+    "timestamp": "2026-09-09T21:03:45+00:00",
+    "event": "phi.memory_bank.read",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 4
+    }
+  },
+  {
+    "id": "3915dc57-85cf-4d37-9290-9533a573e02b",
+    "timestamp": "2026-09-09T21:05:05+00:00",
+    "event": "phi.read_self",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 6
+    }
+  },
+  {
+    "id": "0a06889b-7778-49d8-a28b-91bd10bb102e",
+    "timestamp": "2026-09-09T21:05:06+00:00",
+    "event": "phi.read_self",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 6
+    }
+  },
+  {
+    "id": "71c7d7e7-9364-4067-90b0-cb70b54e9ca2",
+    "timestamp": "2026-09-09T21:06:34+00:00",
+    "event": "phi.read_self",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 6
+    }
+  },
+  {
+    "id": "753f0e79-5bdb-40b2-b484-5dc4fc6e37a3",
+    "timestamp": "2026-09-09T21:06:34+00:00",
+    "event": "phi.read_self",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 6
+    }
+  },
+  {
+    "id": "0790a958-f905-4da7-8a04-d9d2101d5f0c",
+    "timestamp": "2026-09-10T03:41:37+00:00",
+    "event": "auth.login.success",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "2a57524d-b14d-4fd9-8db7-a97218ebb2b4",
+    "timestamp": "2026-09-10T03:41:37+00:00",
+    "event": "phi.read_self",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 0
+    }
+  },
+  {
+    "id": "64858a52-7bb9-4787-9d4f-3bba25e78c3c",
+    "timestamp": "2026-09-10T03:41:37+00:00",
+    "event": "phi.read_self",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 0
+    }
+  },
+  {
+    "id": "f8a2664e-5077-4b62-a5ca-2b605825dab1",
+    "timestamp": "2026-09-10T03:41:49+00:00",
+    "event": "phi.reminders.read",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 5
+    }
+  },
+  {
+    "id": "7c0d614f-0a1b-4ed7-bf7e-a872f571cdae",
+    "timestamp": "2026-09-10T03:41:50+00:00",
+    "event": "phi.memory_bank.read",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 5
+    }
+  },
+  {
+    "id": "9feb1154-ca0b-4ca8-a998-a615933643fe",
+    "timestamp": "2026-09-10T03:41:50+00:00",
+    "event": "phi.reminders.read",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 5
+    }
+  },
+  {
+    "id": "2bf4f80c-95b5-434a-af05-6b8fdcb80a10",
+    "timestamp": "2026-09-10T03:41:50+00:00",
+    "event": "phi.memory_bank.read",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 5
+    }
+  },
+  {
+    "id": "2a504856-c4d3-4c2b-9726-3dfc81babb04",
+    "timestamp": "2026-09-10T03:43:48+00:00",
+    "event": "phi.read_self",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 0
+    }
+  },
+  {
+    "id": "6a899f73-d526-4440-afec-d60e3b7dfc74",
+    "timestamp": "2026-09-10T03:43:48+00:00",
+    "event": "phi.read_self",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 0
+    }
+  },
+  {
+    "id": "9d9bce21-16d4-4769-8d5f-aaaa8d3e85da",
+    "timestamp": "2026-09-10T03:44:14+00:00",
+    "event": "phi.read_self",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 0
+    }
+  },
+  {
+    "id": "b5f0e200-2eb3-42e3-a012-a931a3cafb00",
+    "timestamp": "2026-09-10T03:44:15+00:00",
+    "event": "phi.read_self",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 0
+    }
+  },
+  {
+    "id": "1e290fa1-44c5-471a-8afd-863fe2f3caf5",
+    "timestamp": "2026-09-10T03:44:16+00:00",
+    "event": "phi.reminders.read",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 5
+    }
+  },
+  {
+    "id": "95e09034-fd60-4653-893d-9d00677abdc0",
+    "timestamp": "2026-09-10T03:44:16+00:00",
+    "event": "phi.memory_bank.read",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 5
+    }
+  },
+  {
+    "id": "91957b85-9c0c-49f7-913f-4c96f81d2825",
+    "timestamp": "2026-09-10T03:44:17+00:00",
+    "event": "phi.reminders.read",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 5
+    }
+  },
+  {
+    "id": "724ad215-f214-47d6-9301-06646ec2d2ef",
+    "timestamp": "2026-09-10T03:44:17+00:00",
+    "event": "phi.memory_bank.read",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 5
+    }
+  },
+  {
+    "id": "7fe2cb89-4ef7-45d1-bc74-f75f05f0c55a",
+    "timestamp": "2026-09-10T03:44:38+00:00",
+    "event": "phi.read_self",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 0
+    }
+  },
+  {
+    "id": "0dbe6cac-3493-4206-b7a2-5087c2db9322",
+    "timestamp": "2026-09-10T03:44:39+00:00",
+    "event": "phi.read_self",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 0
+    }
+  },
+  {
+    "id": "264d1c1f-5be7-4971-b016-b64bb7ae13f7",
+    "timestamp": "2026-09-10T03:46:21+00:00",
+    "event": "phi.read_self",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 0
+    }
+  },
+  {
+    "id": "c5b3e17e-9604-49ac-9296-1469ae7ce482",
+    "timestamp": "2026-09-10T03:46:22+00:00",
+    "event": "phi.read_self",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 0
+    }
+  },
+  {
+    "id": "b2b43dc7-27ae-4fdd-b4f5-c3c862b6e78a",
+    "timestamp": "2026-09-10T03:46:27+00:00",
+    "event": "phi.reminders.read",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 5
+    }
+  },
+  {
+    "id": "1c306274-7ec4-4966-879c-7893c15b162c",
+    "timestamp": "2026-09-10T03:46:27+00:00",
+    "event": "phi.memory_bank.read",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 5
+    }
+  },
+  {
+    "id": "9bfeaa9b-4c0c-4679-af26-dca2281bba3b",
+    "timestamp": "2026-09-10T03:46:27+00:00",
+    "event": "phi.reminders.read",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 5
+    }
+  },
+  {
+    "id": "2e45dfcc-0be0-4c48-9e14-b9d521124d39",
+    "timestamp": "2026-09-10T03:46:28+00:00",
+    "event": "phi.memory_bank.read",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 5
+    }
+  },
+  {
+    "id": "bf659eea-edf9-4297-b1a5-fced87067fbc",
+    "timestamp": "2026-09-10T03:46:31+00:00",
+    "event": "phi.reminders.completed",
+    "actor_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "actor_role": "patient",
+    "subject_id": "62016f45-d650-4f1e-b21a-065d81d92127",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "reminder_id": "ffb0703c-6fed-4dfd-b231-c31dced8db24"
+    }
+  },
+  {
+    "id": "70b7f2f1-6c3c-4f51-aa49-6d389da0826e",
+    "timestamp": "2026-09-10T17:13:51+00:00",
+    "event": "auth.login.success",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "84c8e7eb-2e7c-41fa-99ec-ca9af78d1251",
+    "timestamp": "2026-09-10T17:13:52+00:00",
+    "event": "phi.read_self",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 6
+    }
+  },
+  {
+    "id": "bbe01218-a580-4d4c-9d16-a74022cc58cd",
+    "timestamp": "2026-09-10T17:13:52+00:00",
+    "event": "phi.read_self",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 6
+    }
+  },
+  {
+    "id": "fb02b6b6-9f36-439d-a12b-017f19fe4390",
+    "timestamp": "2026-09-10T17:15:32+00:00",
+    "event": "phi.read_self",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 6
+    }
+  },
+  {
+    "id": "41253db2-4377-4231-8360-924cd893fbd4",
+    "timestamp": "2026-09-10T17:15:32+00:00",
+    "event": "phi.read_self",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "record_count": 6
+    }
+  },
+  {
+    "id": "c3d5e588-59f2-4a46-b274-4c4a02aacf10",
+    "timestamp": "2026-09-10T17:15:49+00:00",
+    "event": "phi.reminders.read",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 3
+    }
+  },
+  {
+    "id": "cc1fcb24-353f-499e-bda3-55adfeb6ea78",
+    "timestamp": "2026-09-10T17:15:50+00:00",
+    "event": "phi.memory_bank.read",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 4
+    }
+  },
+  {
+    "id": "3c971d57-82da-448a-aaaa-396f1f8fc3c6",
+    "timestamp": "2026-09-10T17:15:50+00:00",
+    "event": "phi.reminders.read",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 3
+    }
+  },
+  {
+    "id": "d2cf3229-43eb-418f-9d87-4a57400acdba",
+    "timestamp": "2026-09-10T17:15:50+00:00",
+    "event": "phi.memory_bank.read",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "patient",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "count": 4
+    }
+  },
+  {
+    "id": "1f1762d4-052b-44e6-894e-aaff8f621ea7",
+    "timestamp": "2026-09-10T17:18:42+00:00",
+    "event": "auth.logout",
+    "actor_id": "sih-demo-patient-001",
+    "actor_role": "guest",
+    "subject_id": null,
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "0da47520-58a7-43be-88eb-c9c85af8f00d",
+    "timestamp": "2026-09-10T17:19:26+00:00",
+    "event": "auth.login.success",
+    "actor_id": "sih-demo-caregiver-001",
+    "actor_role": "caregiver",
+    "subject_id": "sih-demo-caregiver-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "55dd01d2-eae7-4611-89c6-af305e868092",
+    "timestamp": "2026-09-10T17:19:28+00:00",
+    "event": "dashboard.overview_read",
+    "actor_id": "sih-demo-caregiver-001",
+    "actor_role": "caregiver",
+    "subject_id": null,
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "patient_count": 1
+    }
+  },
+  {
+    "id": "b808802c-3683-4692-a05c-341273c8e770",
+    "timestamp": "2026-09-10T17:19:30+00:00",
+    "event": "dashboard.overview_read",
+    "actor_id": "sih-demo-caregiver-001",
+    "actor_role": "caregiver",
+    "subject_id": null,
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "patient_count": 1
+    }
+  },
+  {
+    "id": "f0d0c359-b852-4176-bd63-0c5ff11d55c3",
+    "timestamp": "2026-09-10T17:19:31+00:00",
+    "event": "dashboard.patient_detail_read",
+    "actor_id": "sih-demo-caregiver-001",
+    "actor_role": "caregiver",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "2126b5cf-ccf7-43b5-a44c-27eb69b50395",
+    "timestamp": "2026-09-10T17:19:34+00:00",
+    "event": "dashboard.patient_detail_read",
+    "actor_id": "sih-demo-caregiver-001",
+    "actor_role": "caregiver",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "261fa798-9c31-4472-a83b-efe1ec63c10f",
+    "timestamp": "2026-09-10T17:19:38+00:00",
+    "event": "dashboard.patient_detail_read",
+    "actor_id": "sih-demo-caregiver-001",
+    "actor_role": "caregiver",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "028c1988-d757-479c-8383-ed9eccd0507f",
+    "timestamp": "2026-09-10T17:19:42+00:00",
+    "event": "dashboard.patient_detail_read",
+    "actor_id": "sih-demo-caregiver-001",
+    "actor_role": "caregiver",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "86491613-77b9-4a0a-b719-6ff73ba66ec2",
+    "timestamp": "2026-09-10T17:19:44+00:00",
+    "event": "dashboard.patient_detail_read",
+    "actor_id": "sih-demo-caregiver-001",
+    "actor_role": "caregiver",
+    "subject_id": "sih-demo-patient-001",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "aa7ecf41-5ca6-4b8b-973e-71117045cca7",
+    "timestamp": "2026-09-10T17:19:49+00:00",
+    "event": "auth.logout",
+    "actor_id": "sih-demo-caregiver-001",
+    "actor_role": "guest",
+    "subject_id": null,
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "ce954be2-0426-4fe2-a3be-b08e9b6e4e59",
+    "timestamp": "2026-09-10T17:20:27+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "sih-demo-doctor-001",
+    "actor_role": "doctor",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "1006f585-639a-4313-92d5-e8db79fdb48a",
+    "timestamp": "2026-09-10T17:20:39+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "sih-demo-doctor-001",
+    "actor_role": "doctor",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "feefedbf-dd0e-4768-9217-dd207843122d",
+    "timestamp": "2026-09-10T18:12:47+00:00",
+    "event": "auth.register",
+    "actor_id": "061ddcbd-b3b1-43cf-a611-a3daf526d3c2",
+    "actor_role": "doctor",
+    "subject_id": "061ddcbd-b3b1-43cf-a611-a3daf526d3c2",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "d7492763-f3e3-4955-8770-5de015d1cc00",
+    "timestamp": "2026-09-10T18:12:47+00:00",
+    "event": "auth.register",
+    "actor_id": "dc90263a-fa7e-4955-bb82-66c4a9e4c06e",
+    "actor_role": "patient",
+    "subject_id": "dc90263a-fa7e-4955-bb82-66c4a9e4c06e",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "70675de3-1945-4737-bc52-e73a8387e1a6",
+    "timestamp": "2026-09-10T18:12:47+00:00",
+    "event": "consent.read",
+    "actor_id": "dc90263a-fa7e-4955-bb82-66c4a9e4c06e",
+    "actor_role": "patient",
+    "subject_id": "dc90263a-fa7e-4955-bb82-66c4a9e4c06e",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "82f24e67-256c-43e2-bba8-1e403cc3b200",
+    "timestamp": "2026-09-10T18:12:47+00:00",
+    "event": "consent.updated",
+    "actor_id": "dc90263a-fa7e-4955-bb82-66c4a9e4c06e",
+    "actor_role": "patient",
+    "subject_id": "dc90263a-fa7e-4955-bb82-66c4a9e4c06e",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "share_with_care_team": false,
+      "share_memory_bank": false,
+      "share_reminders": true,
+      "allow_research_deidentified": true
+    }
+  },
+  {
+    "id": "35a5365b-4bcd-4734-8325-3660600ba88e",
+    "timestamp": "2026-09-10T18:12:48+00:00",
+    "event": "auth.register",
+    "actor_id": "87177e9d-bcb4-4ff9-a2bc-32f33d03890b",
+    "actor_role": "patient",
+    "subject_id": "87177e9d-bcb4-4ff9-a2bc-32f33d03890b",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "6ffb3f47-dbee-4f0e-a471-6df23c192821",
+    "timestamp": "2026-09-10T18:12:48+00:00",
+    "event": "auth.register",
+    "actor_id": "bdc91c37-4319-4eb1-9e69-dbaabb447c10",
+    "actor_role": "doctor",
+    "subject_id": "bdc91c37-4319-4eb1-9e69-dbaabb447c10",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "456d46a5-0a61-4192-a14b-cb448cfcbd4e",
+    "timestamp": "2026-09-10T18:12:48+00:00",
+    "event": "care_team.enrollment_requested",
+    "actor_id": "87177e9d-bcb4-4ff9-a2bc-32f33d03890b",
+    "actor_role": "guest",
+    "subject_id": "bdc91c37-4319-4eb1-9e69-dbaabb447c10",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {}
+  },
+  {
+    "id": "7165f3f8-45dd-47fd-9035-08b8cac9a637",
+    "timestamp": "2026-09-10T18:12:48+00:00",
+    "event": "care_team.enrollment_approved",
+    "actor_id": "bdc91c37-4319-4eb1-9e69-dbaabb447c10",
+    "actor_role": "guest",
+    "subject_id": "87177e9d-bcb4-4ff9-a2bc-32f33d03890b",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "action": "approve"
+    }
+  },
+  {
+    "id": "765f0e0c-5eee-481c-a61a-16826b5579ba",
+    "timestamp": "2026-09-10T18:12:48+00:00",
+    "event": "consent.updated",
+    "actor_id": "87177e9d-bcb4-4ff9-a2bc-32f33d03890b",
+    "actor_role": "patient",
+    "subject_id": "87177e9d-bcb4-4ff9-a2bc-32f33d03890b",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "share_with_care_team": false,
+      "share_memory_bank": false,
+      "share_reminders": false,
+      "allow_research_deidentified": false
+    }
+  },
+  {
+    "id": "0e78c2dc-32ac-4b5a-bd4d-19eba2bc7ae3",
+    "timestamp": "2026-09-10T18:12:48+00:00",
+    "event": "phi.access_denied",
+    "actor_id": "bdc91c37-4319-4eb1-9e69-dbaabb447c10",
+    "actor_role": "doctor",
+    "subject_id": "87177e9d-bcb4-4ff9-a2bc-32f33d03890b",
+    "outcome": "forbidden",
+    "client_ip": null,
+    "metadata": {
+      "reason": "consent_withheld",
+      "resource": "cognitive_results"
+    }
+  },
+  {
+    "id": "c6651cb7-f359-4880-b5ce-e21cd3c177e9",
+    "timestamp": "2026-09-10T18:12:49+00:00",
+    "event": "auth.register",
+    "actor_id": "34146935-ef3f-4c2a-b462-215f689500ef",
+    "actor_role": "patient",
+    "subject_id": "34146935-ef3f-4c2a-b462-215f689500ef",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "b86355d3-7f47-4244-a904-2513e5a71f9a",
+    "timestamp": "2026-09-10T18:12:49+00:00",
+    "event": "auth.register",
+    "actor_id": "cafc1219-5a3b-4a48-9849-89202fdd56ae",
+    "actor_role": "doctor",
+    "subject_id": "cafc1219-5a3b-4a48-9849-89202fdd56ae",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "690328e1-73b3-4f5d-b057-4b4ac5267671",
+    "timestamp": "2026-09-10T18:12:49+00:00",
+    "event": "phi.access_denied",
+    "actor_id": "cafc1219-5a3b-4a48-9849-89202fdd56ae",
+    "actor_role": "doctor",
+    "subject_id": "34146935-ef3f-4c2a-b462-215f689500ef",
+    "outcome": "forbidden",
+    "client_ip": null,
+    "metadata": {
+      "reason": "unassigned_patient",
+      "resource": "cognitive_results"
+    }
+  },
+  {
+    "id": "54ae18e5-6924-4af5-8857-3b79f1862f3d",
+    "timestamp": "2026-09-10T18:12:49+00:00",
+    "event": "auth.register",
+    "actor_id": "755e4274-6239-4e51-a09c-db80f56db589",
+    "actor_role": "patient",
+    "subject_id": "755e4274-6239-4e51-a09c-db80f56db589",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "6578aa7f-eeb0-4558-8461-2588c20cfa18",
+    "timestamp": "2026-09-10T18:12:50+00:00",
+    "event": "auth.register",
+    "actor_id": "a27da8b9-3bc3-4306-a3b1-e95f4b00e7a6",
+    "actor_role": "patient",
+    "subject_id": "a27da8b9-3bc3-4306-a3b1-e95f4b00e7a6",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "f4b8faec-cc1e-4ab9-8471-998e0e811b9e",
+    "timestamp": "2026-09-10T18:12:50+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "a27da8b9-3bc3-4306-a3b1-e95f4b00e7a6",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "7d6b7b21-d936-4455-b243-35e31d9ee023",
+    "timestamp": "2026-09-10T18:12:50+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "a27da8b9-3bc3-4306-a3b1-e95f4b00e7a6",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "906a353f-035c-4ec0-a558-aca417935283",
+    "timestamp": "2026-09-10T18:12:51+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "a27da8b9-3bc3-4306-a3b1-e95f4b00e7a6",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "d9cf4373-e290-4de5-9091-453e36aa3e51",
+    "timestamp": "2026-09-10T18:12:51+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "a27da8b9-3bc3-4306-a3b1-e95f4b00e7a6",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "118a163d-0f39-4488-bb28-3e852ad4747c",
+    "timestamp": "2026-09-10T18:12:51+00:00",
+    "event": "auth.login.failure",
+    "actor_id": "a27da8b9-3bc3-4306-a3b1-e95f4b00e7a6",
+    "actor_role": "patient",
+    "subject_id": null,
+    "outcome": "failed",
+    "client_ip": null,
+    "metadata": {
+      "reason": "invalid_password"
+    }
+  },
+  {
+    "id": "eb1745b4-2501-4a0e-acdb-3a8ea7a49910",
+    "timestamp": "2026-09-10T18:12:51+00:00",
+    "event": "auth.login.locked",
+    "actor_id": "lockout@example.com",
+    "actor_role": "guest",
+    "subject_id": null,
+    "outcome": "locked",
+    "client_ip": null,
+    "metadata": {
+      "attempts_count": 5
+    }
+  },
+  {
+    "id": "2a3ad322-f88c-46b9-8b28-dfa86e00ebd6",
+    "timestamp": "2026-09-10T18:12:52+00:00",
+    "event": "auth.register",
+    "actor_id": "d4a19ad6-7ae7-4e5e-8c7c-e9cc7c89c5f9",
+    "actor_role": "patient",
+    "subject_id": "d4a19ad6-7ae7-4e5e-8c7c-e9cc7c89c5f9",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "d11e8cf7-7604-4db9-93ed-2699b7a6536d",
+    "timestamp": "2026-09-10T18:12:52+00:00",
+    "event": "auth.register",
+    "actor_id": "2328fdfe-944d-4ac8-b81a-d4ddfa47bba0",
+    "actor_role": "doctor",
+    "subject_id": "2328fdfe-944d-4ac8-b81a-d4ddfa47bba0",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "doctor"
+    }
+  },
+  {
+    "id": "fbd1aef3-05b0-418c-b9ee-f2ac2c2f0cbc",
+    "timestamp": "2026-09-10T18:12:53+00:00",
+    "event": "auth.register",
+    "actor_id": "c0033414-2187-47f4-960d-1705646612b3",
+    "actor_role": "patient",
+    "subject_id": "c0033414-2187-47f4-960d-1705646612b3",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  },
+  {
+    "id": "6fb39cba-c53f-4716-abb4-6be6996d94d5",
+    "timestamp": "2026-09-10T18:12:53+00:00",
+    "event": "auth.register",
+    "actor_id": "31cef311-386c-4252-a01c-b5355a604724",
+    "actor_role": "patient",
+    "subject_id": "31cef311-386c-4252-a01c-b5355a604724",
+    "outcome": "success",
+    "client_ip": null,
+    "metadata": {
+      "role": "patient"
+    }
+  }
+]
